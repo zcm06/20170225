@@ -3,7 +3,7 @@ package day17;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
-public class LinkedHashMapDemo {
+public class ArrayHashMapDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

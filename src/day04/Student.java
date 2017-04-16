@@ -5,7 +5,7 @@ public class Student {
 	private String name;
 	private char sex;
 	public Student(){
-		System.out.println("ÎÒÊÇÒ»¸öÑ§Éú");
+		System.out.println("åˆå§‹åŒ–");
 	}
 	public int getOld() {
 		return old;
@@ -14,7 +14,7 @@ public class Student {
 		if(old>0){
 		this.old = old;
 		}else{
-			System.out.println("´íÎóµÄÄêÁä£¡");
+			System.out.println("è¾“å…¥é”™è¯¯");
 		}
 	}
 	public String getName() {
@@ -27,10 +27,10 @@ public class Student {
 		return sex;
 	}
 	public void setSex(char sex) {
-		if(sex=='ÄĞ'||sex=='Å®'){
+		if(sex=='ç”·'||sex=='å¥³'){
 		this.sex = sex;
 		}else{
-			System.out.println("ĞÔ±ğ´íÎó£¡");
+			System.out.println("è¾“å…¥é”™è¯¯");
 		}
 	}
 	
